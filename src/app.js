@@ -81,6 +81,6 @@ app.get('*',(req,res) => {
         title : 'Page not found'
     }) 
 })
-app.listen(8088,( ) => {
+app.listen(port,( ) => {
     console.log("server is up and running in port "+port+" :) ")
 })
